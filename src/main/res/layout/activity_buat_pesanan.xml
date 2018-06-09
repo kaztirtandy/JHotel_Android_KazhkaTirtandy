@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuatPesananActivity">
+
+    <TextView
+        android:id="@+id/staticRoomNumber"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:text="Room Number"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/room_number"
+        android:layout_width="73dp"
+        android:layout_height="24dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/staticTarif"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:text="Tarif"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/tarif"
+        android:layout_width="73dp"
+        android:layout_height="26dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/staticDurasi"
+        android:layout_width="58dp"
+        android:layout_height="26dp"
+        android:text="Durasi"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/durasi_hari"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/staticTotal"
+        android:layout_width="68dp"
+        android:layout_height="29dp"
+        android:text="Total"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/total_biaya"
+        android:layout_width="71dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="345dp" />
+</android.support.constraint.ConstraintLayout>
